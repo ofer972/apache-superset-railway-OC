@@ -47,4 +47,4 @@ TALISMAN_CONFIG = {
 
 # 3. Add Flask Session Cookie Settings (outside TALISMAN_CONFIG)
 SESSION_COOKIE_HTTPONLY = True  # Prevent JavaScript access to the session cookie
-SESSION_COOKIE_SECURE = False   # Set to True if Superset is ONLY served over HTTPS
+SESSION_COOKIE_SECURE = True   # Set to True if Superset is ONLY served over HTTPS
