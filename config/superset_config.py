@@ -31,7 +31,7 @@ TALISMAN_CONFIG = {
         "style-src": ["'self'", "'unsafe-inline'"],
         "frame-ancestors": [
             "'self'",
-            "https://your-dash-app-name.up.railway.app" # <-- *** REMEMBER TO REPLACE THIS ***
+            "https://dashboards-production-6a67.up.railway.app" # <-- *** REMEMBER TO REPLACE THIS ***
         ],
     },
     "content_security_policy_nonce_in": ["script-src"],
