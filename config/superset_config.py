@@ -31,7 +31,9 @@ TALISMAN_CONFIG = {
         "style-src": ["'self'", "'unsafe-inline'"],
         "frame-ancestors": [
             "'self'",
-            "https://dashboards-production-6a67.up.railway.app" # <-- *** REMEMBER TO REPLACE THIS ***
+            "https://dashboards-production-6a67.up.railway.app", # <-- *** REMEMBER TO REPLACE THIS ***
+            "http://localhost:8050",                             # Added for local development
+            "http://127.0.0.1:8050"                              # Added for local development
         ],
     },
     "content_security_policy_nonce_in": ["script-src"],
