@@ -37,7 +37,7 @@ TALISMAN_CONFIG = {
         ],
     },
     "content_security_policy_nonce_in": ["script-src"],
-    "force_https": False,
+    "force_https": True,
     "strict_transport_security": True,
     # REMOVED: "session_cookie_secure": False,
     # REMOVED: "session_cookie_httponly": True,
